@@ -1,0 +1,495 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #2d2d32;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+li {
+  list-style: none;
+}
+
+input {
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
+textarea:focus-visible,
+input:focus-visible {
+  outline: none;
+}
+.container {
+  max-width: 1298px;
+  width: 100%;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.otp-sec > div {
+  gap: 10px !important;
+}
+
+.numberinput::-webkit-outer-spin-button,
+.numberinput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+select:focus-visible {
+  outline: none;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.select-language {
+  .css-1u9des2-indicatorSeparator {
+    width: 0;
+  }
+
+  .css-13cymwt-control {
+    border: none;
+    margin: 0 auto;
+    width: 78px;
+    cursor: pointer;
+    justify-content: start;
+
+    .css-tj5bde-Svg {
+      fill: #414146;
+    }
+
+    .css-1xc3v61-indicatorContainer {
+      padding: 8px 3px;
+    }
+  }
+
+  .css-1dimb5e-singleValue {
+    font-size: 13px !important;
+    overflow: visible !important;
+    color: #414146;
+    margin-left: 0 !important;
+  }
+
+  .css-b62m3t-container:focus-visible {
+    outline: none;
+  }
+
+  .css-t3ipsp-control {
+    border: none !important;
+    box-shadow: none !important;
+    width: 78px;
+    cursor: pointer;
+    justify-content: start;
+
+    .css-15lsz6c-indicatorContainer {
+      padding: 8px 3px !important;
+
+      &:hover {
+        color: #414146 !important;
+      }
+    }
+  }
+
+  .css-1nmdiq5-menu {
+    width: 85px !important;
+    font-size: 13px !important;
+    .css-1n6sfyn-MenuList {
+      .css-1pxql8j-option {
+        &:active {
+          background-color: transparent !important;
+        }
+      }
+      .css-1gujcqz-option {
+        &:active {
+          background-color: transparent !important;
+        }
+      }
+      .css-1gdsdc3-option {
+        &:active {
+          background-color: #f15a2b !important;
+        }
+      }
+      .css-1h7q5ou-option {
+        &:active {
+          background-color: #f15a2b !important;
+        }
+      }
+    }
+  }
+  .css-1nmdiq5-menu > div > div {
+    cursor: pointer !important;
+  }
+
+  .css-1fdsijx-ValueContainer {
+    padding: 0 !important;
+    padding: 2px 0;
+    flex: none;
+    width: 46px;
+  }
+}
+
+.astroswiper {
+  .swiper-pagination {
+    position: static;
+    padding-top: 20px;
+
+    .swiper-pagination-bullet {
+      width: 12px;
+      height: 4px;
+      border-radius: 2px;
+    }
+
+    .swiper-pagination-bullet-active {
+      background-color: #f15a2b;
+    }
+  }
+}
+
+.nextui-c-dTfjaK-dRBbhr-blur-true {
+  backdrop-filter: saturate(180%) blur(5px) !important;
+}
+.nextui-modal-body {
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+.nextui-c-iDzHRq {
+  padding: 24px 24px 16px !important;
+}
+
+.nextui-c-hdxYb {
+  right: 20px !important;
+  top: 14px !important;
+  svg {
+    color: #444444 !important;
+    width: 25px;
+    height: 25px;
+  }
+}
+
+/* keyframe */
+.marquee-container {
+  .marquee {
+    animation: marquee 20s linear infinite;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    left: 5%;
+  }
+
+  100% {
+    left: -95%;
+  }
+}
+
+.article-swiper {
+  .swiper-pagination {
+    display: none;
+  }
+}
+// tab css start
+.profile-tab {
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #f15a2b !important;
+    &::after {
+      font-size: 14px !important;
+      font-weight: bolder !important;
+    }
+  }
+  .swiper-button-prev {
+    left: 0px !important;
+  }
+  .swiper-button-next {
+    right: 0px !important;
+  }
+  .swiper-button-disabled {
+    color: #b4b4be !important;
+    opacity: 1 !important;
+  }
+}
+
+@media (max-width: 574px) {
+  .nextui-modal-body {
+    margin: 0 20px;
+  }
+  .nextui-c-iDzHRq {
+    padding: 24px 16px 16px !important;
+  }
+  .otp-sec > div {
+    gap: 6px !important;
+  }
+  // tab css start
+  .profile-tab {
+    .swiper-button-prev {
+      left: -8px !important;
+    }
+    .swiper-button-next {
+      right: -8px !important;
+    }
+  }
+
+  .select-language {
+    position: relative;
+    .css-13cymwt-control {
+      justify-content: flex-end;
+      .css-1xc3v61-indicatorContainer {
+        padding: 8px 0px !important;
+      }
+    }
+    .css-t3ipsp-control {
+      justify-content: flex-end;
+      .css-15lsz6c-indicatorContainer {
+        padding: 8px 0px !important;
+      }
+    }
+    .css-1nmdiq5-menu {
+      position: absolute;
+      right: 0 !important;
+      top: 28px;
+      max-width: 60px;
+      width: 60px;
+      // min-width: 50px;
+      & > div {
+        & > div {
+          padding-left: 6px;
+          padding-right: 6px;
+        }
+      }
+    }
+  }
+}
+
+.slide_up_from_bottom_animatete {
+  animation: slide_up_from_bottom 0.5s ease;
+}
+
+@keyframes slide_up_from_bottom {
+  0% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+
+  to {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+// checkbox css start
+.styled-checkbox {
+  & + label {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+  }
+  // Box.
+  & + label:before {
+    content: "";
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 20px;
+    height: 20px;
+    background: white;
+  }
+  // Box checked
+  &:checked + label:before {
+    background: #f15a2b;
+  }
+  &:checked + label:after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    background: white;
+    width: 2px;
+    height: 2px;
+    box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white,
+      4px -6px 0 white, 4px -8px 0 white;
+    transform: rotate(45deg);
+  }
+}
+// herosec dot css start
+.pulse {
+  &::before {
+    content: "";
+    display: block;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 240, 118, 0.6);
+    box-shadow: 0 0 0 0 rgba(0, 240, 118, 0.6);
+    animation: pulse 1.2s infinite;
+  }
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 240, 118, 0.6);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(0, 240, 118, 0.6);
+    box-shadow: 0 0 0 0 rgba(0, 240, 118, 0.6);
+  }
+  70% {
+    -moz-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+    box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}
+
+.profiledata {
+  transform: rotate(320deg);
+}
+
+.sevices-data {
+  li {
+    list-style: disc;
+    color: #414146;
+    &::marker {
+      color: #b4b4be;
+    }
+  }
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ebebeb;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #787887;
+}
+.filterscroll::-webkit-scrollbar {
+  width: 3px;
+}
+.filterscroll::-webkit-scrollbar-thumb {
+  background: #e9c8be;
+}
+.check-input[type="radio"] {
+  position: relative;
+  border: 2px solid #f15a2b;
+  border-radius: 50%;
+  background: none;
+  cursor: pointer;
+  line-height: 0;
+  margin: 0 0.6em 0 0;
+  outline: 0;
+  padding: 0 !important;
+  vertical-align: text-top;
+  height: 20px;
+  width: 20px;
+  -webkit-appearance: none;
+}
+
+.check-input[type="radio"]:checked {
+  background-color: #f15a2b;
+}
+.check-input[type="radio"]:checked label.selected {
+  font-weight: bold;
+}
+
+.check-input[type="radio"]:before {
+  content: "";
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  width: 5px;
+  height: 11px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  margin: -1px -1px 0 -1px;
+  transform: rotate(45deg) translate(-50%, -50%);
+  z-index: 2;
+}
+.check-input[type="checkbox"] {
+  position: relative;
+  border: 2px solid #f15a2b;
+  border-radius: 50%;
+  background: none;
+  cursor: pointer;
+  line-height: 0;
+  margin: 0 0.6em 0 0;
+  outline: 0;
+  padding: 0 !important;
+  vertical-align: text-top;
+  height: 20px;
+  width: 20px;
+  -webkit-appearance: none;
+}
+
+.check-input[type="checkbox"]:checked {
+  background-color: #f15a2b;
+}
+.check-input[type="checkbox"]:checked label.selected {
+  font-weight: bold;
+}
+
+.check-input[type="checkbox"]:before {
+  content: "";
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  width: 5px;
+  height: 11px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  margin: -1px -1px 0 -1px;
+  transform: rotate(45deg) translate(-50%, -50%);
+  z-index: 2;
+}
+
+.checkboxterms:checked + .checkboxtermsinner {
+  background-color: #4541ff;
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='14px' height='10px' viewBox='0 0 14 10' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 59.1 (86144) - https://sketch.com --%3E%3Ctitle%3Echeck%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='ios_modification' transform='translate(-27.000000, -191.000000)' fill='%23FFFFFF' fill-rule='nonzero'%3E%3Cg id='Group-Copy' transform='translate(0.000000, 164.000000)'%3E%3Cg id='ic-check-18px' transform='translate(25.000000, 23.000000)'%3E%3Cpolygon id='check' points='6.61 11.89 3.5 8.78 2.44 9.84 6.61 14 15.56 5.05 14.5 4'%3E%3C/polygon%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-size: 14px 10px;
+  border: 1px solid #4541ff;
+}
+
+@media (max-width: 767px) {
+  .herologo {
+    width: 100%;
+  }
+}
+
+.table-contain::-webkit-scrollbar {
+  height: 3px;
+}
+.datepicker-main {
+  .react-datepicker__current-month {
+    color: #f15a2b;
+  }
+  .react-datepicker__day--keyboard-selected {
+    background-color: #f15a2b !important;
+    color: white !important;
+  }
+  .react-datepicker__day--selected {
+    background-color: #f15a2b !important;
+  }
+}
