@@ -76,7 +76,7 @@ const Benefits  =  (id) => {
               <div key={index} className="">
                 <div className="flex items-center">
                   <div>
-                    <Image src={item.icons} width={30} height={30} alt="" />
+                    <Image src={TrueIcons} width={30} height={30} alt="" />
                   </div>
                   <div>
                     <h3
